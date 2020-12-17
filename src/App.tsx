@@ -1,14 +1,12 @@
-/** @jsxRuntime classic */
-/** @jsx jsx */
-import {jsx, css} from "@emotion/react";
-import React, {FC} from 'react';
+import {css} from '@emotion/react'
+import React, {FC} from 'react'
 
 export const App: FC = () => {
-    return (
-        <div css={css`
-            background-color: cornflowerblue;
-            `}>
-            Hello from app !
-        </div>
-    );
+	return (
+		<div css={css`
+          background-color: cornflowerblue;
+		`}>
+			Hello from app !
+		</div>
+	)
 }
